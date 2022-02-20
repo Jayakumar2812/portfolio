@@ -3,7 +3,7 @@ import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponent
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
-const Hero = (props) => (
+const Hero = () => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
@@ -15,7 +15,9 @@ const Hero = (props) => (
         Area of expertise is De-Fi and NFT.<br/>
         Currently learning ZKP and Metaverse tech.  
       </SectionText>
-      <Button  onClick={() => window.open("https://drive.google.com/file/d/1_zFdNSnSsVmeDftIl95q4U6j_EFUlIcF/view","_blank")} >Resume</Button>
+      <a href='/resume.pdf' download="/resume.pdf" > 
+      <Button> Download Resume </Button>
+      </a>
     </LeftSection>
   </Section>
 );

@@ -18,21 +18,21 @@ const Header = () =>  (
     <Div2>
       <li>
         <Link href = "#projects">
-          <NavLink>
-            Projects
+          <NavLink style={{color:"rgb(0, 0, 230)"}}>
+          Projects
           </NavLink>
         </Link>
       </li>
       <li>
         <Link href = "#tech">
-          <NavLink>
+          <NavLink style={{color:"rgb(0, 0, 230)"}} >
             Technologies
           </NavLink>
         </Link>
       </li>
       <li>
         <Link href = "#about">
-          <NavLink>
+          <NavLink style={{color:"rgb(0, 0, 230)"}} >
             About
           </NavLink>
         </Link>
