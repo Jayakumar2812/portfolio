@@ -13,7 +13,7 @@ const Footer = () => {
       <SocialIconsContainer>
         <CompanyContainer>
           <Slogan>
-            " To hell with circumstances, I create opportunities." - Bruce Lee".
+            " To hell with circumstances, I create opportunities." - Bruce Lee.
           </Slogan>
         </CompanyContainer>
       <SocialContainer>
