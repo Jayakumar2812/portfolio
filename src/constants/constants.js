@@ -38,12 +38,12 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: "2020(6mons)", text: 'Started my journey as a crypto trader', },
-  { year: "2021(2mons)", text: 'Started learning coding (python,html,css) ', },
-  { year: "2021(2mons)", text: 'Engaged with real world projects (MERN stack)', },
-  { year: "2021(3mons)", text: 'Started my Blockchain development journey', },
-  { year: "2021(1mon)",  text: 'Blockchain Developer Intern at Bytex', },
+  { year: "2022(Current)", text: 'Blockchain Developer at Guardian Link', },
   { year: "2021(3mons)", text: 'Blockchain Developer Intern at Blockchain App Factory', },
+  { year: "2021(1mon)",  text: 'Blockchain Developer Intern at Bytex', },
+  { year: "2021(3mons)", text: 'Started my Blockchain development journey', },
+  { year: "2021(2mons)", text: 'Engaged with real world projects (MERN stack)', },
+  { year: "2021(2mons)", text: 'Started learning coding (python,html,css) ', }
 ];
 
 export const certi = [
