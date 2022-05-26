@@ -12,9 +12,8 @@ const Hero = () => (
       </SectionTitle>
       <SectionText>
         I am Jayakumar S, Blockchain Developer ( Public Blockchain ).<br/>
-        Area of expertise is De-Fi and NFT.<br/>
-        Currently learning ZKP and Metaverse tech.  
-      </SectionText>
+        Area of expertise is De-Fi and NFT.      
+        </SectionText>
       <a href='/resume.pdf' download="/resume.pdf" > 
       <Button> Download Resume </Button>
       </a>

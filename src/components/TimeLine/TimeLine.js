@@ -43,13 +43,16 @@ const Timeline = () => {
 
   return (
     <Section id="about">
+      <SectionDivider />
+      <br/>
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I am JAYAKUMAR S, Blockchain Developer (PS: Finally found my groove in Blockchain after trying out many Interests.) <br/>
         Focused on gaining Knowledge, Friends and Stillness. <br/>
-        Topics which peak my curiosity to have a conversation. <br/>
-        Professional : BLockchain stuff, Innovative Ideas, New Tech.<br/>
-        Personal : Books, Psychology, Anime, Series, Movies and Games. 
+        I have Worked on variety of NFT Projects involving Different types of On-Chain NFT's, 998 Standards and Image Generation's via automation in CI/CD Pipeline Environment.<br/>
+        Research and implementation is primarily my day-to-day work.<br/>
+        Mostly up-to-date with both web3 and Developer Community.<br/>
+        Finding new Tools, Tutorials, Blogs is my favourite Timepass at work.<br/>  
+        Personal : Books, Psychology, Anime, Series and Games. 
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

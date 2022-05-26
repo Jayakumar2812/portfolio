@@ -8,7 +8,7 @@ const Technologies = () =>  (
   <SectionDivider/>
   <br/>
   <SectionTitle>Technologies</SectionTitle>
-  <SectionText>
+  <SectionText style ={{  color: "#FFFFFF"}} >
     Tech stack
   </SectionText>
   <List>
@@ -22,6 +22,8 @@ const Technologies = () =>  (
         <li style={{listStyleType:"disc" ,listStylePosition:"inside" }}>Next js</li>
         <li style={{listStyleType:"disc" ,listStylePosition:"inside" }}>HTML5</li>
         <li style={{listStyleType:"disc" ,listStylePosition:"inside" }}>CSS3</li>
+        <li style={{listStyleType:"disc" ,listStylePosition:"inside" }}>Javascript</li>
+
         </ul>
       </ListContainer>
     </ListItem>
@@ -32,9 +34,6 @@ const Technologies = () =>  (
         {/* <ListParagraph>Python, Javascript, Typescript, Rust, Node js, Mongodb, SQL, Github </ListParagraph> */}
         <ul>
         <li style={{listStyleType:"disc" ,listStylePosition:"inside" }}>Python</li>
-        <li style={{listStyleType:"disc" ,listStylePosition:"inside" }}>Javascript</li>
-        <li style={{listStyleType:"disc" ,listStylePosition:"inside" }}>Typescript</li>
-        <li style={{listStyleType:"disc" ,listStylePosition:"inside" }}>Rust</li>
         <li style={{listStyleType:"disc" ,listStylePosition:"inside" }}>Node js</li>
         <li style={{listStyleType:"disc" ,listStylePosition:"inside" }}>Mongodb</li>
         <li style={{listStyleType:"disc" ,listStylePosition:"inside" }}>SQL</li>
@@ -51,13 +50,11 @@ const Technologies = () =>  (
         <li style={{listStyleType:"disc" ,listStylePosition:"inside" }}>Solidity</li>
         <li style={{listStyleType:"disc" ,listStylePosition:"inside" }}>Web3 js</li>
         <li style={{listStyleType:"disc" ,listStylePosition:"inside" }}>Ether js</li>
-        <li style={{listStyleType:"disc" ,listStylePosition:"inside" }}>Web3 py</li>
         <li style={{listStyleType:"disc" ,listStylePosition:"inside" }}>Truffle</li>
         <li style={{listStyleType:"disc" ,listStylePosition:"inside" }}>Hardhat</li>
         <li style={{listStyleType:"disc" ,listStylePosition:"inside" }}>Brownie</li>
-        <li style={{listStyleType:"disc" ,listStylePosition:"inside" }}>Ganache</li>
         <li style={{listStyleType:"disc" ,listStylePosition:"inside" }}>Remix</li>
-        <li style={{listStyleType:"disc" ,listStylePosition:"inside" }}>Geth</li>
+        <li style={{listStyleType:"disc" ,listStylePosition:"inside" }}>Foundry</li>
         </ul>
       </ListContainer>
     </ListItem>
