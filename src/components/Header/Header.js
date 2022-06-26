@@ -3,6 +3,7 @@ import React from 'react';
 import { AiFillGithub,AiFillLinkedin,AiFillMail} from 'react-icons/ai';
 import {SiDiscord} from "react-icons/si"
 import { DiCssdeck } from 'react-icons/di';
+import {ImBlogger} from "react-icons/im";
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons,Span } from './HeaderStyles';
 
@@ -39,18 +40,21 @@ const Header = () =>  (
       </li>
     </Div2>
     <Div3 >
-      <SocialIcons href='https://github.com/Jayakumar2812/Jayakumar2812'>
+      <SocialIcons target="_blank" href='https://github.com/Jayakumar2812/Jayakumar2812'>
         <AiFillGithub size= "3rem" />
       </SocialIcons>
-      <SocialIcons href='http://www.linkedin.com/in/jayakumar-sathayadhran-8b70a819b' >
+      <SocialIcons target="_blank" href='http://www.linkedin.com/in/jayakumar-sathayadhran-8b70a819b' >
         <AiFillLinkedin size= "3rem" />
       </SocialIcons>
-      <SocialIcons href='https://discord.gg/64KUJkM3Ak' >
+      <SocialIcons target="_blank" href='https://discord.gg/64KUJkM3Ak' >
         <SiDiscord size= "3rem" />
       </SocialIcons>  
-      <SocialIcons href='mailto:jayakumargowtham2812@gmail.com' >
+      <SocialIcons target="_blank" href='mailto:jayakumargowtham2812@gmail.com' >
         <AiFillMail size= "3rem" />
       </SocialIcons>     
+      <SocialIcons target="_blank" href='https://medium.com/@jayakumargowtham2812' >
+        <ImBlogger size= "3rem" />
+      </SocialIcons>  
     </Div3>
   </Container>
 

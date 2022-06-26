@@ -39,8 +39,8 @@ export const projects = [
 
 export const TimeLineData = [
   { year: "2022(Current)", text: 'Blockchain Developer at Guardian Link .', },
-  { year: "2022(Current)", text: 'Blockchain Developer at D-Frame (Part-Time) .', },
   { year: "2022(Current)", text: 'Freelancing as Blockchain Developer/Consultant .', },
+  { year: "2022(3mons)", text: 'Blockchain Developer at D-Frame (Part-Time) .', },
   { year: "2021(3mons)", text: 'Blockchain Developer Intern at Blockchain App Factory .', },
   { year: "2021(1mon)",  text: 'Blockchain Developer Intern at Bytex .', },
 
@@ -51,3 +51,4 @@ export const certi = [
   { name: "De-Fi Specialization", provider: 'Duke University(Coursera)', },
   { name: "BEC vantage[2020]", provider: 'Cambridge University', },
 ];
+
