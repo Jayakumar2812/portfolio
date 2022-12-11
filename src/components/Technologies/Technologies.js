@@ -20,9 +20,9 @@ const Technologies = () =>  (
         {/* <ListParagraph>React js,Next js, HTML5, CSS3</ListParagraph> */}
         <ul>
         <li style={{listStyleType:"disc" ,listStylePosition:"inside" }}>Solidity</li>
+        <li style={{listStyleType:"disc" ,listStylePosition:"inside" }}>Yul</li>
+        <li style={{listStyleType:"disc" ,listStylePosition:"inside" }}>Rust</li>
         <li style={{listStyleType:"disc" ,listStylePosition:"inside" }}>Python</li>
-        {/* <li style={{listStyleType:"disc" ,listStylePosition:"inside" }}>HTML5</li> */}
-        {/* <li style={{listStyleType:"disc" ,listStylePosition:"inside" }}>CSS3</li> */}
         <li style={{listStyleType:"disc" ,listStylePosition:"inside" }}>Javascript</li>
         
 
@@ -53,10 +53,10 @@ const Technologies = () =>  (
         {/* <li style={{listStyleType:"disc" ,listStylePosition:"inside" }}>Web3 js</li> */}
         <li style={{listStyleType:"disc" ,listStylePosition:"inside" }}>Truffle</li>
         <li style={{listStyleType:"disc" ,listStylePosition:"inside" }}>Hardhat</li>
-        <li style={{listStyleType:"disc" ,listStylePosition:"inside" }}>Brownie</li>
         <li style={{listStyleType:"disc" ,listStylePosition:"inside" }}>Remix</li>
         <li style={{listStyleType:"disc" ,listStylePosition:"inside" }}>Foundry</li>
         <li style={{listStyleType:"disc" ,listStylePosition:"inside" }}>Slither</li>
+        <li style={{listStyleType:"disc" ,listStylePosition:"inside" }}>Echdina</li>
         </ul>
       </ListContainer>
     </ListItem>
