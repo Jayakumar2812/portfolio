@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiFillGithub,AiFillLinkedin,AiFillMail} from 'react-icons/ai';
+import { AiFillGithub,AiFillLinkedin,AiFillMail,AiFillTwitterCircle} from 'react-icons/ai';
 import {SiDiscord} from "react-icons/si"
 import { DiCssdeck } from 'react-icons/di';
 import {ImBlogger} from "react-icons/im";
@@ -43,10 +43,13 @@ const Header = () =>  (
       <SocialIcons target="_blank" href='https://github.com/Jayakumar2812/Jayakumar2812'>
         <AiFillGithub size= "3rem" />
       </SocialIcons>
+      <SocialIcons target="_blank" href='https://twitter.com/Jayakumar2812' >
+        <AiFillTwitterCircle size= "3rem" />
+      </SocialIcons> 
       <SocialIcons target="_blank" href='http://www.linkedin.com/in/jayakumar-sathayadhran-8b70a819b' >
         <AiFillLinkedin size= "3rem" />
       </SocialIcons>
-      <SocialIcons target="_blank" href='https://discord.gg/64KUJkM3Ak' >
+      <SocialIcons target="_blank" href='https://discord.gg/TA4pFR8V' >
         <SiDiscord size= "3rem" />
       </SocialIcons>  
       <SocialIcons target="_blank" href='mailto:jayakumargowtham2812@gmail.com' >
