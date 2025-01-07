@@ -8,13 +8,12 @@ const Hero = () => (
     <LeftSection>
       <SectionTitle main center>
         Hello!! from the other side. <br/>
-        Allow me to introduce myself.
       </SectionTitle>
       <SectionText>
-        I am Jayakumar S, Blockchain Developer ( EVM chains ).<br/>
-        Currently focused on Security side  of smart contracts.  
+        I’m Jayakumar, a Smart Contract Engineer specializing in automated security, NFTs, and decentralized solutions.<br/>
+        Excited to connect and collaborate on innovative blockchain technologies! 🚀
         </SectionText>
-      <a href='/resume.pdf' download="/resume.pdf" > 
+      <a href='/JAYAKUMAR_RESUME.pdf' download="/JAYAKUMAR_RESUME.pdf" > 
       <Button> Download Resume </Button>
       </a>
     </LeftSection>
