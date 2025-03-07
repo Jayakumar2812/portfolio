@@ -27,15 +27,15 @@ export const projects = [
     visit: 'https://mutimons-eth-india-dapp.vercel.app/',
     id: 2,
   },
-  // {
-  //   title: 'Marketplace (Online Course Platform)',
-  //   description: "An upgrade to traditional platforms such as Udemy, coursera with a web3 view while Integraing it with existing web2 platforms.",
-  //     image: '/images/1.png',
-  //     tags: ['web3js', 'Truffle', 'Next js', 'Tailwind CSS','Solidity'],
-  //   source: 'https://github.com/Jayakumar2812/marketplace1-jk',
-  //   visit: 'https://marketplace1-jk.vercel.app/marketplace',
-  //   id: 3,
-  // },
+  {
+    title: 'Marketplace (Online Course Platform)',
+    description: "An upgrade to traditional platforms such as Udemy, coursera with a web3 view while Integraing it with existing web2 platforms.",
+      image: '/images/1.png',
+      tags: ['web3js', 'Truffle', 'Next js', 'Tailwind CSS','Solidity'],
+    source: 'https://github.com/Jayakumar2812/marketplace1-jk',
+    visit: 'https://marketplace1-jk.vercel.app/marketplace',
+    id: 3,
+  },
   {
     title: 'NFT Marketplace',
     description:"A fully functional NFT Marketplace with all the basic features and an creator dashboard deployed on the polygon testnet.",
@@ -45,13 +45,45 @@ export const projects = [
     visit: 'https://nft-marketplace-testnet.vercel.app/',
     id: 4,
   },
+
+  {
+    title: 'Stop loss ',
+    description: "A stop loss order is a tool that automatically sells your selected assets when its price reaches a specified level, called the stop price. We have implemented Trailing stoploss as a key feature.",
+      image: '/images/stop-loss.jpg',
+      tags: ['Solidity','Ether js','Next js',"chainlink oracle","chainlink keeper function","push protocol"],
+    source: 'https://github.com/0xHashiras/StopLoss-ETHBangkok.git',
+    visit: 'https://github.com/0xHashiras/StopLoss-ETHBangkok.git',
+    id: 5,
+  },
+  {
+    title: 'Slice pay',
+    description: "Bridging the gap of crypto based micropayments and manage expense among groups, where in a single user pays for a group, which are then settled later by the individuals through both Fiat / Crypto",
+      image: '/images/slicepay.png',
+      tags: ['Solidity','Ether js','Next js',"push protocol","chainlink oracle"],
+    source: 'https://github.com/0xHashiras/StopLoss-ETHBangkok.git',
+    visit: 'https://github.com/0xHashiras/StopLoss-ETHBangkok.git',
+    id: 6,
+  },
+  {
+    title: 'Edu-Lend',
+    description: "It is a education lending platform where all the certificates provided by the students are attested on chain and progress of sponsored are sent respective sponsors.",
+      image: '/images/edu-lend.png',
+      tags: ['Solidity','Ether js','Next js',"push protocal","chainlink keeper function","push protocol"],
+    source: 'https://github.com/0xHashiras/Edu-Lend-EthParis',
+    visit: 'https://github.com/0xHashiras/Edu-Lend-EthParis',
+    id: 6,
+  },
+
+
+
 ];
 
 export const TimeLineData = [
-  { year: "2022(Current)", text: 'Blockchain Developer at Guardian Link .', },
-  { year: "2022(3mons)", text: 'Blockchain Developer at D-Frame (Part-Time) .', },
-  { year: "2021(3mons)", text: 'Blockchain Developer Intern at Blockchain App Factory .', },
-  { year: "2021(1mon)",  text: 'Blockchain Developer Intern at Bytex .', },
+  {company:"Trugard Labs",  position: 'Smart Contract Research Engineer', year: "Feb 2023 - Jan 2025", },
+  {company:"Guardian Link",  position: 'Blockchain Developer', year: "Mar 2022 - Dec 2022" },
+  {company:"D-Frame",  position: 'Blockchain Developer (Part-Time)', year: "Dec 2021 - Mar 2022"},
+  {company:"Blockchain App Factory",  position: 'Blockchain Developer Intern',year: "Sep 2021 - Nov 2021"},
+  { company:"Bytex",  position: 'Blockchain Developer Intern', year: "Aug 2021 - Sep 2021"},
 
 ];
 
