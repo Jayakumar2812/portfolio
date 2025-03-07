@@ -3,17 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-  "dev": "NODE_OPTIONS=--openssl-legacy-provider next dev",
-  "build": "NODE_OPTIONS=--openssl-legacy-provider next build && next export",
-  "start": "NODE_OPTIONS=--openssl-legacy-provider next start"
-},
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider next dev",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider next build && next export",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider next start"
+  },
   "dependencies": {
-    "next": "10.2.3",
-    "react": "17.0.2",
+    "@babel/plugin-transform-runtime": "^7.26.9",
+    "@babel/runtime": "^7.26.9",
+    "next": "^15.2.1",
+    "react": "^19.0.0",
     "react-doc-viewer": "^0.1.14",
-    "react-dom": "17.0.2",
+    "react-dom": "^19.0.0",
     "react-icons": "^4.2.0",
     "styled-components": "^5.3.0",
     "styled-normalize": "^8.0.7"
+  },
+  "engines": {
+    "node": ">=18",
+    "npm": ">=9"
   }
 }

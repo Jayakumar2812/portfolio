@@ -71,7 +71,7 @@ export const projects = [
       tags: ['Solidity','Ether js','Next js',"push protocal","chainlink keeper function","push protocol"],
     source: 'https://github.com/0xHashiras/Edu-Lend-EthParis',
     visit: 'https://github.com/0xHashiras/Edu-Lend-EthParis',
-    id: 6,
+    id: 7,
   },
 
 

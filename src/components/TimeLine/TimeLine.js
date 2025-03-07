@@ -35,15 +35,17 @@ const Timeline = () => {
   };
 
   useEffect(() => {
-    const handleResize = () => {
-      scroll(carouselRef.current, 0);
-    };
-
-    window.addEventListener('resize', handleResize);
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
+    if (typeof window !== 'undefined') {
+      const handleResize = () => {
+        scroll(carouselRef.current, 0);
+      };
+      window.addEventListener('resize', handleResize);
+      return () => {
+        window.removeEventListener('resize', handleResize);
+      };
+    }
   }, []);
+  
 
   return (
     <Section id="about">
@@ -51,13 +53,13 @@ const Timeline = () => {
       <br/>
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        <p>Driven by <strong>curiosity, research, and innovation</strong>, I specialize in:</p>
-        <BulletList>
-          <li>Blockchain security, smart contract development, and decentralized applications.</li>
-          <li>Contract security automation, bytecode analysis, and transaction tracing, contributing to the detection of <strong>multi-million dollar scams</strong>.</li>
-          <li>On-chain NFTs, ERC-998 standards, DeFi protocols, and automated image generation pipelines within CI/CD environments.</li>
-        </BulletList>
+        Driven by curiosity, research, and innovation, I specialize in:
       </SectionText>
+      <BulletList>
+        <li>Blockchain security, smart contract development, and decentralized applications.</li>
+        <li>Contract security automation, bytecode analysis, and transaction tracing, contributing to the detection of <strong>multi-million dollar scams</strong>.</li>
+        <li>On-chain NFTs, ERC-998 standards, DeFi protocols, and automated image generation pipelines within CI/CD environments.</li>
+      </BulletList>
 
       {/* Experience Section Header */}
       <SectionTitle>Experience</SectionTitle>
@@ -67,6 +69,7 @@ const Timeline = () => {
             key={index}
             final={index === TOTAL_CAROUSEL_COUNT - 1}>
             <CarouselItem
+              as="button"
               index={index}
               id={`carousel__item-${index}`}
               active={activeItem}

@@ -10,32 +10,33 @@ import { Container, Div1, Div2, Div3, NavLink, SocialIcons,Span } from './Header
 const Header = () =>  (
   <Container>
     <Div1>
-      <Link href="/">
-        <a style={{display : "flex", alignItems : "center", color: "white", marginBottom:"18px" }}>
-          <DiCssdeck size = "3rem" /> <Span> Portfolio </Span>
-        </a>
-      </Link>
+    <Link href="/">
+  <div style={{ display: "flex", alignItems: "center", color: "white", marginBottom: "18px" }}>
+    <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+  </div>
+</Link>
+
     </Div1>
     <Div2>
       <li>
-        <Link href = "#projects">
-          <NavLink style={{color:"rgb(0, 0, 230)"}}>
+        <Link href = "#projects" legacyBehavior>
+          <a style={{color:"rgb(0, 0, 230)"}}>
           Projects
-          </NavLink>
+          </a>
         </Link>
       </li>
       <li>
-        <Link href = "#tech">
-          <NavLink style={{color:"rgb(0, 0, 230)"}} >
+        <Link href = "#tech" legacyBehavior>
+          <a style={{color:"rgb(0, 0, 230)"}} >
             Technologies
-          </NavLink>
+          </a>
         </Link>
       </li>
       <li>
-        <Link href = "#about">
-          <NavLink style={{color:"rgb(0, 0, 230)"}} >
+        <Link href = "#about" legacyBehavior>
+          <a style={{color:"rgb(0, 0, 230)"}} >
             About
-          </NavLink>
+          </a>
         </Link>
       </li>
     </Div2>
