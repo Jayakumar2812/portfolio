@@ -42,12 +42,13 @@ const Technologies = () =>  (
       <ListContainer>
         <ListTitle>Tools</ListTitle>
         <ul>
-          <li>Truffle</li>
           <li>Hardhat</li>
           <li>Remix</li>
           <li>Foundry</li>
           <li>Slither</li>
           <li>Echidna</li>
+          <li>Halmos</li>
+          <li>Brownie</li>
         </ul>
       </ListContainer>
     </ListItem>

@@ -9,6 +9,10 @@ const reorderedProjects = [
   ...projects.filter(p => p.title.includes('EVM Slot Reader')),
   ...projects.filter(p => p.title.includes('POS Blockchain')),
   ...projects.filter(p => p.title.includes('NFT Marketplace')),
+  ...projects.filter(p => p.title.includes('Marketplace (Online Course Platform)')),
+  ...projects.filter(p => p.title.includes('Stop loss')),
+  ...projects.filter(p => p.title.includes('Slice pay')),
+  ...projects.filter(p => p.title.includes('Edu-Lend')),
   ...projects.filter(p => !['Multimon', 'EVM Slot Reader', 'POS Blockchain', 'NFT Marketplace'].includes(p.title))
 ];
 
@@ -36,7 +40,7 @@ const Projects = () => (
           </div>
           <UtilityList>
             <ExternalLinks href={source}>Code</ExternalLinks>
-            {!(title.includes('NFT Marketplace') || title.includes('POS Blockchain')) && (
+            {(title.includes('EVM Slot Reader') || title.includes('Multimon')) && (
               <ExternalLinks href={visit}>Live Demo</ExternalLinks>
             )}
           </UtilityList>

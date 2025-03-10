@@ -57,8 +57,12 @@ const Timeline = () => {
       </SectionText>
       <BulletList>
         <li>Blockchain security, smart contract development, and decentralized applications.</li>
-        <li>Contract security automation, bytecode analysis, and transaction tracing, contributing to the detection of <strong>multi-million dollar scams</strong>.</li>
-        <li>On-chain NFTs, ERC-998 standards, DeFi protocols, and automated image generation pipelines within CI/CD environments.</li>
+        <li>Contract security automation, bytecode analysis, and transaction tracing, contributing to the detection of <strong>  multi-million dollar scam</strong>.</li>
+        <li>Formal verification, fuzzing, and static analysis to enhance smart contract security across EVM-based blockchains.</li>
+        <li>Researching and implementing on-chain automation, ERC-998 NFTs, DeFi security frameworks, and scalable smart contract architectures.</li>
+        <li>Building security-focused development tools, enhancing testing methodologies, and optimizing blockchain-based infrastructure.</li>
+        <li>Beyond tech, I enjoy exploring new ideas through books and blogs, hiking to refresh my mind, and watching anime as a way to appreciate storytelling and creativity.</li>
+        <li> Passionate about securing Web3 and continuously pushing the boundaries of blockchain innovation  🚀</li>
       </BulletList>
 
       {/* Experience Section Header */}

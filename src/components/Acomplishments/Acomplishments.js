@@ -8,7 +8,7 @@ import { certi } from '../../constants/constants';
 
 const Acomplishments = () => (
 <Section>
-  <SectionTitle>Certifications</SectionTitle>
+  <SectionTitle>Acomplishments</SectionTitle>
   <Boxes>
     {certi.map((card,index)=>(
       <Box key={index}>

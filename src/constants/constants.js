@@ -47,7 +47,7 @@ export const projects = [
   },
 
   {
-    title: 'Stop loss ',
+    title: 'Stop loss',
     description: "A stop loss order is a tool that automatically sells your selected assets when its price reaches a specified level, called the stop price. We have implemented Trailing stoploss as a key feature.",
       image: '/images/stop-loss.jpg',
       tags: ['Solidity','Ether js','Next js',"chainlink oracle","chainlink keeper function","push protocol"],
@@ -88,8 +88,11 @@ export const TimeLineData = [
 ];
 
 export const certi = [
-  { name: "Gas Optimization", provider: 'Jeffery Scholz'},
-  { name: "De-Fi Specialization", provider: 'Duke University(Coursera)', },
-  { name: "BEC vantage[2020]", provider: 'Cambridge University', },
+  { name : "Open source Contribution", provider : "Slither, Halmos "},
+  { name : "Winners - capture the spec", provider : "Certora at DSS 2024 "},
+  { name : "Won multiple bounties", provider: "ETH global hackathons "},
+  { name : "BEC vantage[2020]", provider: 'Cambridge University '},
+  { name : "Completed multiple CTF's ", provider: "Damn Vulnerable De-Fi , Paradigm , Rare Skills Gas-puzzles and Ethernaut "},
+  { name : "De-Fi Specialization", provider: 'Duke University(Coursera) '}
 ];
 

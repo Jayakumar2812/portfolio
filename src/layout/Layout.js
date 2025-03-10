@@ -9,11 +9,8 @@ export const Layout = ({ children }) => {
 
   return (
     <Container>
-      {console.log("Rendering Header")}
       <Header />
-      {console.log("Rendering Main Content")}
       <main>{children}</main>
-      {console.log("Rendering Footer")}
       <Footer />
     </Container>
   )
