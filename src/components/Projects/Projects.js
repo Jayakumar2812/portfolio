@@ -13,7 +13,7 @@ const reorderedProjects = [
   ...projects.filter(p => p.title.includes('Stop loss')),
   ...projects.filter(p => p.title.includes('Slice pay')),
   ...projects.filter(p => p.title.includes('Edu-Lend')),
-  ...projects.filter(p => !['Multimon', 'EVM Slot Reader', 'POS Blockchain', 'NFT Marketplace'].includes(p.title))
+  
 ];
 
 const Projects = () => (
